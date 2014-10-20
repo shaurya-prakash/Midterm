@@ -17,9 +17,9 @@ public class PizzaPalace {
 		// TODO Replace this section with your own code
 		
 		// NOTE
-		// The Math class provides a function, ceiling(), which will take a double
+		// The Math class provides a function, ceil() short for 'ceiling', which will take a double
 		// and return the next higher integer value.
-		// For example, Math.ceiling(4.125) would evaluate to 5
+		// For example, Math.ceil(4.125) would evaluate to 5
 
 	}
 
