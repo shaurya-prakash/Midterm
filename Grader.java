@@ -22,11 +22,25 @@
 *  
 */
 
+import java.util.Scanner;
+
 public class Grader {
-  
   public static void main(String[] args) {
-    //TODO insert your code here
+    
+    Scanner scnr = new Scanner(System.in);
+    
+    System.out.println("Enter the number of items on the exam");
+    float possibleItems = scnr.nextFloat();
+    System.out.println("Enter the number of items missed");
+    float missedItems = scnr.nextFloat();
+    
+    if (missedItems >= 0) {
+    System.out.println("Missing " + missedItems + " results in a score of " + (100 * ((possibleItems - missedItems) / (possibleItems))));
+        }
+    else {
+    System.out.println("Thank you -- have a great day!");
+    }
+    
   }
-  
-  
+   
 }
